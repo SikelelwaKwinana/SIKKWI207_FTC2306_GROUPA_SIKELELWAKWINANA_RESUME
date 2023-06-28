@@ -10,7 +10,7 @@ h1 {
   color: white;
 }
 .heading{
-    color: aqua;
+    color: rgb(42, 80, 80);
     font-family: 'Open Sans', sans-serif;
 }
 .subheading{
@@ -33,6 +33,5 @@ ul{
     font-family: 'Open Sans', sans-serif;
 }
 footer {
-  color: black;
-  background-color: gray;
+  background-color: aquamarine;
 }
