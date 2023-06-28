@@ -1,3 +1,38 @@
+aside {
+  background-color: aquamarine;
+}
+.intro{
+    color: white;
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+}
 h1 {
-    color: rgb(0, 247, 255);
-  }
+  color: white;
+}
+.heading{
+    color: aqua;
+    font-family: 'Open Sans', sans-serif;
+}
+.subheading{
+    color: aquamarine;
+    font-family: 'Open Sans', sans-serif;
+}
+header {
+  background-color: aquamarine;
+  font-family: 'Open Sans', sans-serif;
+}
+body {
+  background-color: gray;
+}
+p {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+ul{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+footer {
+  color: black;
+  background-color: gray;
+}
