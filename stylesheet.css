@@ -3,39 +3,42 @@
   margin-inline-start:  40%;
   border-radius: 50%;
   border-style: double;
-  border-width: 3px;
-  border-color: aqua;
-  width: 300px;
-  height: 300px;
-  background-color: aqua;
+  border-width: 5px;
+  border-color:  rgb(32, 212, 194);
+  width: 200px;
+  height: 200px;
+  background-color: turquoise;
   
 }
 nav{
-  background-color: black;
+  background-color: #6F346D;
   margin-inline-end: 80%;
+  margin-left: 0px;
+  color: white;
   padding: 1px;
 
 }
 .intro{
     color: white;
-    font-size: 22px;
+    font-size: 15px;
     font-family: 'Open Sans', sans-serif;
-   
+    margin-inline-start: 10%;
 }
 h1 {
   color: white;
+
 }
 .heading{
-    color: rgba(6, 48, 15, 0.623);
-    background-color: aqua;
+    color: rgb(70, 16, 70);
+    background-color: turquoise;
     font-family: 'Open Sans', sans-serif;
     font-size: 30px;
-    border-color: aqua;
+    border-color: teal;
     margin: 0%;
     padding: 10px;
 }
 .subheading{
-    color:aquamarine;
+    color:turquoise;
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     /*background-color: #ccc;*/
@@ -46,13 +49,14 @@ header {
   
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
-  margin-inline-start: 40%;
+  margin-inline-start: 35%;
+  
 }
 body {
- /* background-image: linear-gradient(to bottom,aqua 0%, aqua 25%,
-  gray 25%, gray 100%);*/
-  background-color: gray;
-  font-size: 15px;
+  /*background-image: linear-gradient(to bottom,gray 0%, gray 25%,
+  turquoise 25%,turquoise 100%);*/
+    background-color:#7E7F9A;
+    font-size: 15px;
     margin: 0px;
     padding: 10px;
 }
@@ -69,10 +73,78 @@ ul{
     margin: 60px;
     padding: 10px;
 }
-footer {
-  background-color: aqua;
-  font-size: 20px;
-    /*background-color: #ccc;*/
+footer{
+  
+    background: linear-gradient( #47F9FF,#00CCBB, #CEFDFF );
+    font-size: 20px;
     margin: 0px;
     padding: 0px;
+}
+/*FORM STYLE*/
+#contact {
+  margin-top: 50px;
+  padding: 8px;
+  width: 100%;
+}
+
+#contact h2 {
+  text-align: center;
+
+}
+
+#contact form {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+#contact label {
+  display: block;
+  margin-bottom: 5px;
+  margin: 5px;
+}
+#contact .input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#contact input[type="email"],
+#contact select,
+#contact textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#contact textarea {
+  resize: vertical;
+}
+#contact button[type="submit"] {
+  display: block;
+  width: 50%;
+  margin-left: 80px;
+  padding: 10px;
+  background-color: #4CAF50;
+  font-size: large;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+#contact button[type="submit"]:hover {
+ 
+  background-color: #45a049;
+}
+.required{
+  /*content: "*";*/
+  color: red;
+  font-size: 15px;
+  margin-left: 0px;
+  
 }

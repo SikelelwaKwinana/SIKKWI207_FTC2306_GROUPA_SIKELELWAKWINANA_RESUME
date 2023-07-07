@@ -14,8 +14,6 @@
     
   </head>
   <body>
-
-       
         <img
         src="images/Sike.jpg"
         class="image1"
@@ -108,11 +106,40 @@
         
     </article>
     <footer>
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="https://formsubmit.co/0bddc0d660da01eb5139b620cde7e1fe" method="POST">
 
-      <h2 class="heading" id="contact">Contact</h2>
+           
+              <label>Name: <span class="required">*</span></label>
+                <input type=”text” id="name" name="name" class="input" required>
+            
+                <label for="email">Email: <span class="required">*</span></label>
+                <input type="email" id="email" name="email" required>
+            
+        <div>
+            <label for="subject">Subject: <span class="required">*</span></label>
+            <select id="subject" name="subject" required>
+              <option value="">-- Select Subject --</option>
+              <option value="General Inquiry">General Inquiry</option>
+              <option value="Job Opportunity">Job Opportunity</option>
+              <option value="Collaboration">Collaboration</option>
+              <option value="Feedback">Feedback</option>
+            </select>
+        </div>
+        <div>
+            <label for="message">Message: </label>
+            <textarea name="about" id="about" cols="50" rows="10"></textarea>
+        </div>
+
+       <div>
+         <button type="submit">Submit</button>
+       </div>
+        </form>
+      </section>
       <a href="https://www.linkedin.com/feed/" target="_blank">Linkedin</a>
-      <br />
       <a href="https://github.com/SikelelwaKwinana" target="_blank">GitHub</a>
+
     </footer>
 
   </body>
