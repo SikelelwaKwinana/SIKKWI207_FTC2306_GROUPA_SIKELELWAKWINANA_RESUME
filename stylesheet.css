@@ -1,4 +1,4 @@
-.image1{
+/*.image1{
  
   margin-inline-start:  40%;
   border-radius: 50%;
@@ -9,26 +9,66 @@
   height: 200px;
   background-color:#00CCBB;
   
-}
-nav{
-  background-color: #6F346D;
-  margin-inline-end: 80%;
-  margin-left: 0px;
-  color: #00CCBB;
-  padding: 1px;
+}*/
+.hero {
+   
+  
+  background-image: url('images/back1.jpg');
+  background-color: #7E7F9A; /* Backup color if the image fails to load */
+  /*background-repeat: no-repeat;  Set to "repeat" or "repeat-x" for repeated pattern */
+  /*background-position: center;  Adjust as per your preference */
+  background-size: cover; /* Adjust as per your preference */
+  background-blend-mode: multiply;
+ 
+  color: whitesmoke;
+  text-align: center;
 
+ padding-top: 100px;
+ padding-bottom: 100px;
+}
+.profile-pic {
+  width:300px;
+  height: 300px;
+  margin-top: 50px;
+  border-radius: 100%;
+  border-width: 5px;
+  background-color:#7E7F9A;
+}
+.hero-contents {
+  max-width: 4000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.menu {
+  background-color:rgb(2, 2, 2);
+  ; /* Set the background color */
+  color: white; /* Set the text color */
+  padding: 10px; /* Add some padding for spacing */
+}
+.menu::after{
+  content: "";
+  display: block;
+  height: 5px; /* Set the height of the line */
+  background-color: black; /* Set the color of the line */
+  margin-top: 10px; /* Add some spacing between the line and the menu items */
+}
+.menu a {
+  color: white;
+  text-decoration: none;
+  margin-right: 10px; /* Add some spacing between menu items */
 }
 .intro{
-    color: white;
-    font-size: 15px;
+    color: whitesmoke;
+    font-size: 20px;
     font-family: 'Open Sans', sans-serif;
-    margin-inline-start: 10%;
+    margin: 5px;
+    
 }
 h1 {
-  color: white;
-}
-.menu{
-    color: #00CCBB;
+  color: whitesmoke;
+  margin-inline-start: 50px;
 }
 .heading{
     color: rgb(70, 16, 70);
@@ -59,6 +99,7 @@ body {
   turquoise 25%,turquoise 100%);*/
     background-color:#7E7F9A;
     font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0px;
     padding: 10px;
 }
@@ -150,3 +191,22 @@ footer{
   margin-left: 0px;
   
 }
+
+/*Backgroung image
+.hero {
+  background-color:#7E7F9A;
+  background-image: url('images/siki.jpg');
+  padding-top: 200px;
+  padding-bottom: 2000px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  margin: 0;
+}
+*/
