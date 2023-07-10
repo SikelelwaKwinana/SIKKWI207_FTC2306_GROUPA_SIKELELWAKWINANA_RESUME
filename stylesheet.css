@@ -214,9 +214,9 @@ footer{
 @media only screen and (min-width: 1200px) {
   body { background-color: #7E7F9A;
           margin: 0 auto;
-          font-size: 15px;
+          font-size: 20px;
           font-family:'Open Sans', sans-serif;
-          padding: 30px;
+          padding: 20px;
       } 
 }
 
