@@ -1,30 +1,12 @@
-/*.image1{
- 
-  margin-inline-start:  40%;
-  border-radius: 50%;
-  border-style: double;
-  border-width: 5px;
-  border-color: #00CCBB;
-  width: 200px;
-  height: 200px;
-  background-color:#00CCBB;
-  
-}*/
 .hero {
-   
-  
   background-image: url('images/back1.jpg');
   background-color: #7E7F9A; /* Backup color if the image fails to load */
-  /*background-repeat: no-repeat;  Set to "repeat" or "repeat-x" for repeated pattern */
-  /*background-position: center;  Adjust as per your preference */
-  background-size: cover; /* Adjust as per your preference */
+  background-size: cover;
   background-blend-mode: multiply;
- 
   color: whitesmoke;
   text-align: center;
-
- padding-top: 100px;
- padding-bottom: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .profile-pic {
   width:300px;
@@ -34,37 +16,23 @@
   border-width: 5px;
   background-color:#7E7F9A;
 }
-.hero-contents {
-  max-width: 4000px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
 .menu {
-  background-color:rgb(2, 2, 2);
-  ; /* Set the background color */
-  color: white; /* Set the text color */
-  padding: 10px; /* Add some padding for spacing */
+  background-color:rgb(2, 2, 2); 
+  color: white; 
+  padding: 10px; 
+  position: sticky;
+  top: 0;
 }
-.menu::after{
-  content: "";
-  display: block;
-  height: 5px; /* Set the height of the line */
-  background-color: black; /* Set the color of the line */
-  margin-top: 10px; /* Add some spacing between the line and the menu items */
-}
-.menu a {
+.menu a{
   color: white;
   text-decoration: none;
-  margin-right: 10px; /* Add some spacing between menu items */
+  margin-right: 10px; 
 }
 .intro{
     color: whitesmoke;
     font-size: 20px;
     font-family: 'Open Sans', sans-serif;
     margin: 5px;
-    
 }
 h1 {
   color: whitesmoke;
@@ -83,20 +51,11 @@ h1 {
     color:turquoise;
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
-    /*background-color: #ccc;*/
     margin-inline-start: 60px;
     padding: 10px;
 }
-header {
-  
-  font-family: 'Open Sans', sans-serif;
-  font-size: 20px;
-  margin-inline-start: 35%;
-  
-}
 body {
-  /*background-image: linear-gradient(to bottom,gray 0%, gray 25%,
-  turquoise 25%,turquoise 100%);*/
+
     background-color:#7E7F9A;
     font-size: 15px;
     font-family:'Open Sans', sans-serif;
@@ -112,7 +71,6 @@ ul{
     color: white;
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
-    /*background-color: #ccc;*/
     margin: 60px;
     padding: 10px;
 }
@@ -129,12 +87,9 @@ footer{
   padding: 8px;
   width: 100%;
 }
-
 #contact h2 {
   text-align: center;
-
 }
-
 #contact form {
   max-width: 300px;
   margin: 0 auto;
@@ -143,7 +98,7 @@ footer{
 #contact label {
   display: block;
   margin-bottom: 5px;
-  margin: 5px;
+  margin: 3px;
 }
 #contact .input {
   width: 100%;
@@ -163,10 +118,6 @@ footer{
   margin-bottom: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
-}
-
-#contact textarea {
-  resize: vertical;
 }
 #contact button[type="submit"] {
   display: block;
@@ -219,25 +170,3 @@ footer{
           padding: 20px;
       } 
 }
-
-
-
-
-/*Backgroung image
-.hero {
-  background-color:#7E7F9A;
-  background-image: url('images/siki.jpg');
-  padding-top: 200px;
-  padding-bottom: 2000px;
-}
-
-.hero h1 {
-  font-size: 3rem;
-  margin: 0;
-}
-
-.hero p {
-  font-size: 1.5rem;
-  margin: 0;
-}
-*/

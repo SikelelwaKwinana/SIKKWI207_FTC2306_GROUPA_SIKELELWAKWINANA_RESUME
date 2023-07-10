@@ -1,0 +1,24 @@
+/*.hero-contents {
+  max-width: 4000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}*/
+/*.menu::after{
+  content: "";
+  display: block;
+  height: 5px; 
+  background-color: black;
+  margin-top: 10px;
+}
+header {
+  
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  margin-inline-start: 35%;
+  
+}
+#contact textarea {
+  resize: vertical;
+}*/
